@@ -1,5 +1,5 @@
 const toHindiDigits = (numStr) => {
-    const digitsMap = ["०","१","२","३","४","५","६","७","८","९"];
+    const digitsMap = ["0","1","2","3","4","5","6","7","8","9"];
     return numStr.replace(/\d/g, d => digitsMap[d]);
 };
 
