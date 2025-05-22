@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #0044ff;
+    font-family: 'Noto Sans Devanagari', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+#relogio01 {
+    font-size: 8rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#date {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    #relogio01 {
+        font-size: 5rem;
+    }
+    #date {
+        font-size: 2rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
